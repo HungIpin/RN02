@@ -1,25 +1,26 @@
 import React, { Component } from 'react';
 import {View,Text,StyleSheet} from 'react-native';
-
+import {Buoi3} from './src/component/Buoi3/index'
+import {Buoi4} from './src/component/Buoi4/index'
 const App=()=>{
-  return(
-    <View style={style.container}>
-      <View style={style.box1}>
-        <View style={[style.item,style.item1]}></View>
-        <View style={style.item}></View>
-      </View>
-      <View style={style.box2}>
-        <View style={[style.row,style.row1]}>
-          <View style={style.itemvuong}></View>
-          <View style={style.itemvuong}></View>
-        </View>
-        <View style={style.row}>
-        <View style={style.itemvuong}></View>
-        <View style={style.itemvuong}></View>
-        </View>
-      </View>
-    </View>
-  );
+  return <Buoi4/>;
+    // <View style={style.container}>
+    //   <View style={style.box1}>
+    //     <View style={[style.item,style.item1]}></View>
+    //     <View style={style.item}></View>
+    //   </View>
+    //   <View style={style.box2}>
+    //     <View style={[style.row,style.row1]}>
+    //       <View style={style.itemvuong}></View>
+    //       <View style={style.itemvuong}></View>
+    //     </View>
+    //     <View style={style.row}>
+    //     <View style={style.itemvuong}></View>
+    //     <View style={style.itemvuong}></View>
+    //     </View>
+    //   </View>
+    // </View>
+  
 }
 
 const style = StyleSheet.create({
