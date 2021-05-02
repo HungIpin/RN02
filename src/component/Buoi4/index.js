@@ -1,11 +1,11 @@
-import React,{Component} from 'react';
+import React,{Component} from 'react'; //rnc
 import {View,Text,StyleSheet,Image} from 'react-native';
 import ItemTop from './ItemTop';
 import Box from './Box'
  export class Buoi4 extends Component{
     render(){
         const textAvatar = 'React Native 02 Cao Thang';
-        const iShowHide = false;
+        const iShowHide = true;
         return(
     <View style={style.container}>
       <View style={style.box1}>

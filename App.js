@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import {View,Text,StyleSheet} from 'react-native';
 import {Buoi3} from './src/component/Buoi3/index'
 import {Buoi4} from './src/component/Buoi4/index'
+import Touched from './src/component/Buoi5/Touched'
+import RenderWithState from './src/component/Buoi5/RenderWithState'
+import RenderIcon from './src/component/Buoi5/RenderIcon'
 const App=()=>{
-  return <Buoi4/>;
+  return <RenderIcon/>;
     // <View style={style.container}>
     //   <View style={style.box1}>
     //     <View style={[style.item,style.item1]}></View>
