@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import {View,Text,StyleSheet} from 'react-native';
-import {Buoi3} from './src/component/Buoi3/index'
-import {Buoi4} from './src/component/Buoi4/index'
-import Touched from './src/component/Buoi5/Touched'
-import RenderWithState from './src/component/Buoi5/RenderWithState'
-import RenderIcon from './src/component/Buoi5/RenderIcon'
+// import {Buoi3} from './src/component/Buoi3/index'
+// import {Buoi4} from './src/component/Buoi4/index'
+// import Touched from './src/component/Buoi5/Touched'
+// import RenderWithState from './src/component/Buoi5/RenderWithState'
+// import RenderIcon from './src/component/Buoi5/RenderIcon'
+// import BtEmoji from './src/component/Buoi6/BtEmoji'
+// import RenderWithMap from './src/component/Buoi6/RenderWithMap'
+//import BaiTapRenderWithMap from './src/component/Buoi6/BaiTapRenderWithMap'
+import GameScrollView from './src/component/Buoi6/GameScrollView'
+import BaiTapScrollView from './src/component/Buoi6/BaiTapScrollView'
+import BaiTapBuoi6 from './src/component/Buoi6/BaiTapBuoi6'
 const App=()=>{
-  return <RenderIcon/>;
+  return <BaiTapBuoi6/>;
     // <View style={style.container}>
     //   <View style={style.box1}>
     //     <View style={[style.item,style.item1]}></View>
