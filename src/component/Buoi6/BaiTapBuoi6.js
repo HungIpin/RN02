@@ -16,12 +16,6 @@ export default class BaiTapBuoi6 extends Component {
     }
 
     render() {
-        var color = randomColor();
-        randomColor({
-            luminosity: 'random',
-            hue: 'random',
-            count:'14'
-         });
         return (
             <View style={styles.scrennContainer}>
                 <ScrollView>
@@ -39,10 +33,11 @@ const styles = StyleSheet.create({
         paddingVertical:50,
     },
     item:{
-        height:150,
+        height:85,
         justifyContent:'center',
         alignItems:'center',
         backgroundColor:'#fbf',
         marginBottom:8,
+        borderRadius:8
     }
 })

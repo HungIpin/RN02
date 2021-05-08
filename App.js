@@ -11,8 +11,11 @@ import {View,Text,StyleSheet} from 'react-native';
 import GameScrollView from './src/component/Buoi6/GameScrollView'
 import BaiTapScrollView from './src/component/Buoi6/BaiTapScrollView'
 import BaiTapBuoi6 from './src/component/Buoi6/BaiTapBuoi6'
+import BaiTapScrollViewHome from './src/component/Buoi7/BaiTapScrollViewHome'
+import DemoFlatList from './src/component/Buoi7/DemoFlatList'
+import DemoSectionList from './src/component/Buoi7/DemoSectionList'
 const App=()=>{
-  return <BaiTapBuoi6/>;
+  return <DemoSectionList/>;
     // <View style={style.container}>
     //   <View style={style.box1}>
     //     <View style={[style.item,style.item1]}></View>
