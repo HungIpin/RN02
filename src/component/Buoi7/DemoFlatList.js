@@ -38,6 +38,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#bbb',
-        marginBottom: 10
+        marginBottom: 10,
     }
 })

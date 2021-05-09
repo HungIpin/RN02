@@ -14,8 +14,9 @@ import BaiTapBuoi6 from './src/component/Buoi6/BaiTapBuoi6'
 import BaiTapScrollViewHome from './src/component/Buoi7/BaiTapScrollViewHome'
 import DemoFlatList from './src/component/Buoi7/DemoFlatList'
 import DemoSectionList from './src/component/Buoi7/DemoSectionList'
+import BaiTapZalo from './src/component/Buoi7/BaiTapZalo'
 const App=()=>{
-  return <DemoSectionList/>;
+  return <BaiTapZalo/>;
     // <View style={style.container}>
     //   <View style={style.box1}>
     //     <View style={[style.item,style.item1]}></View>
