@@ -15,26 +15,18 @@ import BaiTapScrollViewHome from './src/component/Buoi7/BaiTapScrollViewHome'
 import DemoFlatList from './src/component/Buoi7/DemoFlatList'
 import DemoSectionList from './src/component/Buoi7/DemoSectionList'
 import BaiTapZalo from './src/component/Buoi7/BaiTapZalo'
-const App=()=>{
-  return <BaiTapZalo/>;
-    // <View style={style.container}>
-    //   <View style={style.box1}>
-    //     <View style={[style.item,style.item1]}></View>
-    //     <View style={style.item}></View>
-    //   </View>
-    //   <View style={style.box2}>
-    //     <View style={[style.row,style.row1]}>
-    //       <View style={style.itemvuong}></View>
-    //       <View style={style.itemvuong}></View>
-    //     </View>
-    //     <View style={style.row}>
-    //     <View style={style.itemvuong}></View>
-    //     <View style={style.itemvuong}></View>
-    //     </View>
-    //   </View>
-    // </View>
+import BaiTapOanTuXi from './src/component/Buoi8/index'
+import DemoRedux from './src/component/Buoi9/index'
+import BaiTapRedux from './src/component/Buoi9/BaiTapRedux/index'
+import {Provider} from 'react-redux';
+import store from './src/component/Buoi9/redux/store';
+const App=()=>(
+  <Provider store={store}>
+    
+    <BaiTapRedux />
+  </Provider>
   
-}
+  )
 
 const style = StyleSheet.create({
   container:{
